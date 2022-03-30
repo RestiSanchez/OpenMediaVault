@@ -7,17 +7,6 @@ Lo utilizamos para que los equipos Windows puedan detectar las carpetas comparti
 
 Nos vamos al menu -> Servicios -> SMB -> Opciones y habilitamos el servicio
 
-#### Configuración certificados SSL
-
-Ya con acceso al servidor seguimos la siguiente ruta: "Sistema" -> "Opciones generales" -> "Conexión segura" 
-
-Para utilizar la conexión segura necesitas un certificado , para crear este certificado hay que entrar en "Sistema" -> "Certificados" y haz click sobre SSL , luego pulsa "Añadir" y "Guardar" tras ingresar los datos. Hay que habilitar el certificado en los ajustes generales y aplicar cambios.
-
-![image](https://user-images.githubusercontent.com/14905801/155127858-841c0ed5-a90f-4aaa-91a4-6f6d3944fe6d.png)
-
-Nos dirigimos a la primera ruta comentada de este apartado y habilitamos el SSL , seleccionando el certificado creado en el paso anterior:
-
-![image](https://user-images.githubusercontent.com/14905801/155128082-b2ac03ea-0ad6-4cc0-b07e-fbe6e4b5f27d.png)
 
 #### Cambio de contraseña de administrador
 
@@ -52,3 +41,16 @@ Tendremos una serie de permisos para cada usuario/grupo que depende de cada carp
 Nos vamos a la opción " Usuario " . Seleccionamos la opción " Añadir " y rellenamos los datos.
 
 En este apartado podemos agregar y eliminar perfiles de acceso al server NAS , podemos modificar los permisos de acceso de estos perfiles. Despues de ingresar un usuario , lo seleccionamos y pulsamos en " Modificar acceso ". Podremos otogar o revocar permisos a los usuarios para que puedan moficar el contenido almacenado , permisos de solo lectura o ningun permiso.
+
+
+#### Configuración certificados SSL
+
+Ya con acceso al servidor seguimos la siguiente ruta: "Sistema" -> "Opciones generales" -> "Conexión segura" 
+
+Para utilizar la conexión segura necesitas un certificado , para crear este certificado hay que entrar en "Sistema" -> "Certificados" y haz click sobre SSL , luego pulsa "Añadir" y "Guardar" tras ingresar los datos. Hay que habilitar el certificado en los ajustes generales y aplicar cambios.
+
+![image](https://user-images.githubusercontent.com/14905801/155127858-841c0ed5-a90f-4aaa-91a4-6f6d3944fe6d.png)
+
+Nos dirigimos a la primera ruta comentada de este apartado y habilitamos el SSL , seleccionando el certificado creado en el paso anterior:
+
+![image](https://user-images.githubusercontent.com/14905801/155128082-b2ac03ea-0ad6-4cc0-b07e-fbe6e4b5f27d.png)
